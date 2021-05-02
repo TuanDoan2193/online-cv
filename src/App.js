@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './commonStyles/App.scss'
+import Header from './components/Header/Header'
+import About from './components/About/About'
+import Skills from './components/Skills/Skills'
+import Projects from './components/Projects/Projects'
+import Footer from './components/Footer/Footer'
+import React, { useRef } from 'react'
 
-function App() {
+const App = () => {
+  const headerRef = useRef()
+  const aboutRef = useRef()
+  const skillsRef = useRef()
+  const projectsRef = useRef()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header allRefs={{ headerRef, aboutRef, skillsRef, projectsRef }} />
+      <div className='main-content-wrapper'>
+        <About ref={aboutRef} />
+        <Skills ref={skillsRef} />
+        <Projects ref={projectsRef} />
+        <Footer />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
