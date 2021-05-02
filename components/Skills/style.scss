@@ -1,0 +1,125 @@
+@import '../../commonStyles/mixinAndVariable.scss';
+
+#skills {
+  padding: 1px 0;
+  background: $mainBg;
+  color: #fff;
+}
+
+.skills__title-wrapper {
+  max-width: 600px;
+  margin-bottom: 50px;
+  .skills__title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    padding-bottom: 20px;
+    &::after {
+      content: '';
+      position: absolute;
+      height: 2px;
+      background: $unique;
+      width: 10%;
+      left: 0px;
+      bottom: 20px;
+    }
+  }
+  .skills__description {
+    font-size: 11px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: $halfWhite;
+    text-align: left;
+  }
+}
+
+.skills__content-wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
+  .skills__label-wrapper {
+    width: 100%;
+    flex: 0 0 100%;
+    @media screen and (min-width: 992px) {
+      width: 35%;
+      flex: 0 0 35%;
+    }
+
+    .skills__label {
+      padding: 0 20px 0 30px;
+      position: relative;
+      margin-bottom: 20px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: -2px;
+        bottom: -10px;
+        width: 4px;
+        background: $unique;
+      }
+
+      h3 {
+        font-size: 24px;
+        text-align: left;
+        font-weight: 700;
+        position: relative;
+        margin-bottom: 0px;
+      }
+
+      span {
+        width: 100%;
+        padding-top: 10px;
+        color: #999;
+        font-size: 11px;
+        line-height: 24px;
+        padding-bottom: 10px;
+        font-weight: 500;
+        text-align: left;
+      }
+    }
+  }
+  .skills__ruler-wrapper {
+    width: 100%;
+    flex: 0 0 100%;
+    @media screen and (min-width: 992px) {
+      width: 65%;
+      flex: 0 0 65%;
+    }
+
+    .skills__ruler-box {
+      width: 100%;
+      position: relative;
+      margin-bottom: 50px;
+      .skills__ruler-title {
+        font-size: 13px;
+        margin-top: 12px;
+        padding-bottom: 6px;
+        font-weight: 600;
+        min-width: 100px;
+        text-align: left;
+      }
+      .skills__ruler-bar-wrapper {
+        position: relative;
+        display: block;
+        width: 95%;
+        height: 10px;
+        overflow: hidden;
+        background: #fff;
+        border-radius: 2px;
+
+        .skills__ruler-bar {
+          height: 10px;
+          background: $unique;
+        }
+      }
+    }
+  }
+}
