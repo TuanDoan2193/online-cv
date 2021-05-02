@@ -155,9 +155,10 @@ const Projects = forwardRef((props, ref) => {
         <div className='projects__title-wrapper'>
           <div className='projects__title'>My projects</div>
           <div className='projects__description'>
-            Some of the projects are owned by my current company, HyperIn. I am
-            in charged of developing and maintaining them. Some are my personal
-            projects.
+            I have worked for HyperIn - a company that located in Helsinki for
+            almost 3 years. Now, most of the time I work on HyperIn's projects.
+            But when I am free, I enjoy working on my personal projects with
+            prefered tech stacks.
           </div>
         </div>
       </div>

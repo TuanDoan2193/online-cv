@@ -27,7 +27,7 @@
     }
   }
   .projects__description {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 24px;
     padding-bottom: 10px;
     font-weight: 500;
@@ -120,7 +120,7 @@
           &::before {
             color: $unique;
             opacity: 1;
-            box-shadow: 0 0 10px 0 rgba(8, 191, 109, 0.9);
+            box-shadow: 0 0 10px 0 rgba(234, 121, 60, 0.9);
             border-radius: 100%;
           }
         }

@@ -12,7 +12,7 @@ const Footer = () => (
         >
           <i className='fas fa-home'></i>
           <span>
-            <span className='halfwhite-color'>Address:</span> Kamppi area,
+            <span className='halfwhite-color'>Address:</span> Lönnrotinkatu,
             Helsinki
           </span>
         </a>
@@ -30,7 +30,7 @@ const Footer = () => (
         <a href='tel:+358504756336'>
           <i className='fas fa-mobile-alt'></i>
           <span>
-            <span className='halfwhite-color'>Phone:</span> +3584756336
+            <span className='halfwhite-color'>Phone:</span> +358504756336
           </span>
         </a>
       </div>
