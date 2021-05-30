@@ -14,7 +14,7 @@ const Skills = forwardRef((props, ref) => {
   const developerSkills = [
     { title: 'HTML, CSS, Javascript', width: 'w-95' },
     { title: 'React', width: 'w-90' },
-    { title: 'AngularJS, Svelte', width: 'w-85' },
+    { title: 'AngularJS, Vue, Svelte', width: 'w-85' },
     { title: 'TS', width: 'w-85' },
     { title: 'Bootstrap, MUI, SCSS', width: 'w-90' },
   ]
@@ -45,10 +45,10 @@ const Skills = forwardRef((props, ref) => {
               <h3>Developer skills</h3>
               <span>
                 Although I tend to focus on frontend at the moment, I planned to
-                learn NodeJS soon. Also, I know Java/C# as well but not as good
-                as JS/TS.
-                <br />I have used AngularJS a few years for my job. But I really
-                like React and always choose to use it for my personal projects.
+                learn NodeJS soon.
+                <br />I have been using modern frameworks for various projects.
+                Personally I prefer React or Vue. Svelte is also very
+                interesting to use and very easy to learn.
               </span>
             </div>
           </div>

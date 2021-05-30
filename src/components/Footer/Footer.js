@@ -22,7 +22,7 @@ const Footer = () => (
           <i className='far fa-envelope'></i>
           <span>
             <span className='halfwhite-color'>Email:</span>{' '}
-            tuan.doan2193@gmai.com
+            tuan.doan2193@gmail.com
           </span>
         </a>
       </div>
