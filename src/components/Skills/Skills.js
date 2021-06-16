@@ -14,7 +14,7 @@ const Skills = forwardRef((props, ref) => {
   const developerSkills = [
     { title: 'HTML, CSS, Javascript', width: 'w-95' },
     { title: 'React', width: 'w-90' },
-    { title: 'Vue, Svelte', width: 'w-85' },
+    { title: 'Vue, Svelte', width: 'w-80' },
     { title: 'TS', width: 'w-85' },
     { title: 'Bootstrap, MUI, SCSS', width: 'w-90' },
     { title: 'GSAP', width: 'w-70' },
