@@ -183,10 +183,9 @@ const Header = ({ allRefs }) => {
                 <br />
                 I'm Tuan Doan
                 <br />
-                a proactive Web Developer
+                a proactive Developer
                 <br />
               </h1>
-              <h4>I create awesome responsive websites</h4>
               <div onClick={() => handleNavClick(aboutRef)} className='button'>
                 See more
               </div>
