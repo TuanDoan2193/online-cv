@@ -22,7 +22,7 @@ const Bio = forwardRef((props, ref) => {
             <div className='bio__text-wrapper'>
               <h5>"I belive in luck. The harder I work, the luckier I am"</h5>
               <h2>
-                Living in Helsinki, working as a Web Developer, looking for{' '}
+                Living in Helsinki, working as a Frontend Developer, looking for{' '}
                 <span className='unique-color'>challenges.</span>
               </h2>
               <p>
