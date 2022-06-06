@@ -21,9 +21,8 @@ const Skills = forwardRef((props, ref) => {
   ]
 
   const designSkills = [
-    { title: 'Figma', width: 'w-80' },
-    { title: 'Adobe XD', width: 'w-85' },
-    { title: 'Adobe Illustator', width: 'w-75' },
+    { title: 'Figma', width: 'w-70' },
+    { title: 'Adobe XD', width: 'w-70' },
   ]
 
   return (
