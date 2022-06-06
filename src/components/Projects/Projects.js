@@ -155,10 +155,12 @@ const Projects = forwardRef((props, ref) => {
         <div className='projects__title-wrapper'>
           <div className='projects__title'>My projects</div>
           <div className='projects__description'>
-            I have worked for HyperIn - a company that located in Helsinki for
-            almost 3 years. Now, most of the time I work on HyperIn's projects.
-            But when I am free, I enjoy working on my personal projects with
+            I worked for HyperIn - a company that located in Helsinki for
+            almost 3 years from 2018-2021. During that time period, I had the privillege to work on various interesting projects.
+            When I am free, I enjoy working on my personal projects with
             prefered tech stacks.
+
+            From 9-2021, I have been working at Supermetrics, specifically Google Sheet product team.
           </div>
         </div>
       </div>
