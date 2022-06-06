@@ -159,7 +159,7 @@ const Projects = forwardRef((props, ref) => {
             almost 3 years from 2018-2021. During that time period, I had the privillege to work on various interesting projects.
             When I am free, I enjoy working on my personal projects with
             prefered tech stacks.
-
+            <br/>
             From 9-2021, I have been working at Supermetrics, specifically Google Sheet product team.
           </div>
         </div>
