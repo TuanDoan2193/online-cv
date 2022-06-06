@@ -12,7 +12,7 @@ const Footer = () => (
         >
           <i className='fas fa-home'></i>
           <span>
-            <span className='halfwhite-color'>Address:</span> Lönnrotinkatu,
+            <span className='halfwhite-color'>Address:</span> Iso Roobertinkatu,
             Helsinki
           </span>
         </a>
@@ -36,7 +36,7 @@ const Footer = () => (
       </div>
     </div>
     <div className='footer__copy-right'>
-      <h3>@Tuan Doan 2021 /All rights reserved.</h3>
+      <h3>@Tuan Doan 2022 /All rights reserved.</h3>
     </div>
   </div>
 )
